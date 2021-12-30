@@ -7,7 +7,6 @@ from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 from telethon.sessions import StringSession
 
 from userbot.Config import Config
-from var import Var
 
 BOTLOG = True
 StartTime = time.time()
