@@ -97,16 +97,16 @@ if ENV:
         UPSTREAM_REPO = os.environ.get(
             "UPSTREAM_REPO", "https://github.com/LEGEND-OS/LEGENDBOT"
         )
-        APP_ID = os.environ.get("APP_ID", None)
-        API_HASH = os.environ.get("API_HASH", None)
-        LEGEND_STRING = os.environ.get("LEGEND_STRING", None)
+        APP_ID = os.environ.get("APP_ID", None) or "827292"
+        API_HASH = os.environ.get("API_HASH", None) or "howhosvrkskshepqnwos"
+        LEGEND_STRING = os.environ.get("LEGEND_STRING", None) or "hsjsko1jejs"
         BOT_MODE = os.environ.get("BOT_MODE", "ON")
         BOTLOG = True
-        EXTRA_PLUGIN = os.environ.get("EXTRA_PLUGIN", None)
-        ASSISTANT = os.environ.get("ASSISTANT", None)
-        ABUSE = os.environ.get("ABUSE", None)
-        BOTLOG_CHATID = os.environ.get("LOGGER_ID", None)
-        ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+        EXTRA_PLUGIN = os.environ.get("EXTRA_PLUGIN", None) or ON
+        ASSISTANT = os.environ.get("ASSISTANT", None) or ON
+        ABUSE = os.environ.get("ABUSE", None) or ON
+        BOTLOG_CHATID = os.environ.get("LOGGER_ID", None) or "-82729"
+        ALIVE_NAME = os.environ.get("ALIVE_NAME", None) or "LegendBoy"
         BOY_OR_GIRL = os.environ.get("BOY_OR_GIRL", "BOY")
         BOT_TRIGGER = os.environ.get("BOT_TRIGGER", "^/")
         BOTMODE_LOG = int(os.environ.get("BOTMODE_LOG", False))
@@ -114,17 +114,17 @@ if ENV:
         BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
         FORCE_SUB = os.environ.get("FORCE_SUB", None)
         FORCE_CHANNEL_UN = os.environ.get("FORCE_CHANNEL_UN", None)
-        LOGGER_ID = os.environ.get("LOGGER_ID", None)
+        LOGGER_ID = os.environ.get("LOGGER_ID", None) or "-827282792"
         if LOGGER_ID:
             LOGGER_ID = int(LOGGER_ID)
-        PRIVATE_GROUP_ID = os.environ.get("LOGGER_ID", None)
-        HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-        HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-        BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+        PRIVATE_GROUP_ID = os.environ.get("LOGGER_ID", None) or "-828292729"
+        HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None) or "Hajskakkaoosk"
+        HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None) or "Bhool Gya"
+        BOT_TOKEN = os.environ.get("BOT_TOKEN", None) or "8182829:hsksheksk"
         # can get from https://coffeehouse.intellivoid.net/
         RANDOM_STUFF_API_KEY = os.environ.get("RANDOM_STUFF_API_KEY", None)
         # github vars
-        BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
+        BOT_USERNAME = os.environ.get("BOT_USERNAME", None) or "@LegendBoy_OPbot"
         FORCE_CHANNEL_ID = int(os.environ.get("FORCE_CHANNEL_ID", False))
         PM_DATA = os.environ.get("PM_DATA", "ENABLE")
         GOOGLE_SEARCH_COUNT_LIMIT = int(os.environ.get("GOOGLE_SEARCH_COUNT_LIMIT", 9))
@@ -187,16 +187,13 @@ if ENV:
         NO_SONGS = bool(os.environ.get("NO_SONGS", False))
         MAX_FLOOD_IN_PM = int(os.environ.get("MAX_FLOOD_IN_PM", 7))
         # pm log
-        PM_LOG_GRP_ID = os.environ.get("LOGGER_ID", None)
+        PM_LOG_GRP_ID = os.environ.get("LOGGER_ID", None) or "-26282917"
         # set to True if you want to log PMs to your PM_LOGGR_BOT_API_ID
-        NC_LOG_P_M_S = bool(os.environ.get("NC_LOG_P_M_S", True))
-        # heroku
-        HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-        HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+        NC_LOG_P_M_S = bool(os.environ.get("NC_LOG_P_M_S", True) 
         # send .get_id in any channel to forward all your NEW PMs to this group
-        PRIVATE_GROUP_BOT_API_ID = os.environ.get("LOGGER_ID", None)
+        PRIVATE_GROUP_BOT_API_ID = os.environ.get("LOGGER_ID", None) or "-81828922"
         if PRIVATE_GROUP_BOT_API_ID:
-            PRIVATE_GROUP_BOT_API_ID = int(PRIVATE_GROUP_BOT_API_ID)
+            PRIVATE_GROUP_BOT_API_ID = int(PRIVATE_GROUP_BOT_API_ID) or "72882829"
         # send .get_id in your private channel to forward all your Private messages
 
         TAG_LOGGER = os.environ.get("TAG_LOGGER", None)
